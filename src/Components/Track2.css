@@ -1,0 +1,109 @@
+.body{
+    background-color: #e20b0b;
+}
+.track-expenses-revenues {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .track-expenses-revenues h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .input-section input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-section button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-section button:hover {
+    background-color: #0069d9;
+  }
+  
+  .expense-section,
+  .revenue-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .expense-section h3,
+  .revenue-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .expense-item,
+  .revenue-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .total span:first-child {
+    text-transform: uppercase;
+  }
+  
+  .expense-item span,
+  .revenue-item span {
+    margin-right: 10px;
+  }
+  
+  .expense-item span:first-child,
+  .revenue-item span:first-child {
+    flex-basis: 70%;
+  }
+  
+  .expense-item span:last-child,
+  .revenue-item span:last-child {
+    flex-basis: 30%;
+  }
+  
+  @media (max-width: 600px) {
+    .input-section {
+      flex-direction: column;
+    }
+  
+    .input-section button {
+      margin-top: 10px;
+    }
+  }
+  

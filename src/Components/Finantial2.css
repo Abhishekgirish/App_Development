@@ -1,0 +1,103 @@
+.financial-report-page {
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .financial-report-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .financial-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .financial-box {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .financial-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .financial-box p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .financial-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .financial-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .financial-form label {
+    width: 120px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .financial-form input[type='number'] {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .financial-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #75c6c6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .financial-form button:hover {
+    background-color: #5aa7a7;
+  }
+  
+  .financial-chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .financial-chart {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+  }
+  
